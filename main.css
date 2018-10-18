@@ -1,0 +1,29 @@
+body{
+    margin-bottom: auto;
+    margin-top: 150px;
+    margin-left: 300px;
+    margin-right: auto;
+    background-color: maroon;
+}
+
+
+.stopWatch{
+    font-size: 50px;
+}
+
+
+.startbtn{
+    background-color: green;
+}
+
+.stopbtn{
+    background-color: red;
+}
+
+.lapbtn{
+    background-color: purple;
+}
+
+.resetbtn{
+    background-color: blue;
+}
