@@ -50,7 +50,7 @@
               <button class="startbtn" ng-click="startTimer()">Start</button>
               <button class="stopbtn" ng-click="stopTimer()">Stop</button>
               <button class="lapbtn" ng-click="stopTimer(); startTimer()">Lap</button>
-              <button class="resetbtn" ng-click="resetTimer()">Reset</button>
+              <button class="resetbtn" ng-click="stopTimer(); resetTimer()">Reset</button>
             </div>
           </div>
 
